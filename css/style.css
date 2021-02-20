@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+}
+
+#body-header{
+    height: 65vh;
+    background-image: url("../assets/header.jpg");
+    background-size: cover;
+    background-position: bottom 20px;
+    opacity: 0.8;
+
+}
+#txt-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    border: none;
+    background-color: rgb(219, 69, 71);
+    padding: 1rem;
+    border-radius: 25px;
+}
+.btn a{
+    color: white;
+    font-size: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: rgb(214, 40, 40) ;
+}
+#heading{
+    margin: 0;
+    font-size: 3rem;
+    color: azure;
+    letter-spacing: 0.4rem;
+}
+#heading-1{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color: azure;
+}
+.text-center{
+    text-align: center;
+}
+
+/*---Grid-Items---*/
+#grid{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    text-align: center;
+}
+.grid-1{
+    width: 33.3%;
+    padding: 10px;
+    height: 100%;
+}
+.img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bar{
+    margin-top: 2rem;
+    height: 5px;
+    width: 50px;
+    background-color: red;
+    border-radius: 20px;
+    
+}
+.tagh{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+.tagp{
+    line-height: 1.4rem;
+    font-size: 1.3rem;
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+}
+
+
+#quote-bar{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+    background-color: rgb(254, 236, 123);
+}
+
+#footer{
+    height: 20vh;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(48, 50, 54);
+    margin-bottom: 20px;
+    
+}
+#footerp{
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+}
